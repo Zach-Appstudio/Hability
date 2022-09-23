@@ -8670,6 +8670,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 44px;
 color: #FAFAFB;
+list-style-type: disc;
 }
 
 .hover-text-success {
@@ -85994,6 +85995,10 @@ main.company-documentation .content .content-title {
   letter-spacing: 0.2px;
   color: #183b56;
 }
+.contact-us-btn{
+  border: 1px solid darkblue !important;
+}
+
 main.company-documentation .content .greeting {
   font-size: 32px;
   font-weight: bold;
@@ -86046,6 +86051,14 @@ main.company-documentation .content .image-big.dashboard {
     width: 282px !important;
   }
 }
+
+@media (min-width: 1500px) {
+  .twin-mobile-img {
+    position: relative;
+    left: 50px;
+  }
+}
+
 @media (max-width: 991.98px) {
   header.company-documentation .sidebar-menu {
     display: block;
