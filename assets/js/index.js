@@ -57,3 +57,27 @@ $(document).ready(function(){
 
     }
 });
+
+$("#home-btn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#home").offset().top
+    }, 2000);
+});
+
+$("#features-btn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#multi-platform").offset().top
+    }, 2000);
+});
+
+$("#contact-home").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact-us-div").offset().top
+    }, 2000);
+});
+
+$("#hability-now").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact-us-div").offset().top
+    }, 2000);
+});
