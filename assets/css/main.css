@@ -89103,6 +89103,11 @@ header.blog-alt-2 .popular-tags ul li a {
     /* box-shadow: 0 27px 53px 0 rgba(0, 0, 0, 0.06); */
     border-radius: 0px;
   }
+
+  .feature-container{
+    margin-bottom:60px;
+    margin-top:60px;
+  }
   .iphone-div{
     height: 500px;
     display: flex;
