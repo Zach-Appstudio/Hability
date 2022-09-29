@@ -1,0 +1,23 @@
+<svg width="1440" height="1343" viewBox="0 0 1440 1343" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="-6" width="1446" height="1343" fill="#2D3648"/>
+<mask id="mask0_742_7897" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-6" y="0" width="1446" height="1343">
+<rect x="-6" width="1446" height="1343" fill="white"/>
+</mask>
+<g mask="url(#mask0_742_7897)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1440 175H0V0C240 53.3333 480 80 720 80C960 80 1200 53.3333 1440 0V175Z" fill="#080A0E"/>
+<rect y="174" width="1440" height="1168" fill="#080A0E"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1440 1343H0V1168C240 1221.33 480 1248 720 1248C960 1248 1200 1221.33 1440 1168V1343Z" fill="#2D3648"/>
+<path opacity="0.15" fill-rule="evenodd" clip-rule="evenodd" d="M1597 1799C1924.5 1799 2190 1533.5 2190 1206C2190 878.495 1924.5 613 1597 613C1269.5 613 1004 878.495 1004 1206C1004 1533.5 1269.5 1799 1597 1799ZM1597 1599C1379.95 1599 1204 1423.05 1204 1206C1204 988.952 1379.95 813 1597 813C1814.05 813 1990 988.952 1990 1206C1990 1423.05 1814.05 1599 1597 1599Z" fill="url(#paint0_linear_742_7897)"/>
+<path opacity="0.1" d="M-137.655 421.039C-80.4891 459.014 -13.3457 479.185 55.2841 479C123.914 478.816 190.948 458.284 247.909 420.002C304.87 381.72 349.2 327.407 375.293 263.93C401.386 200.454 408.07 130.665 394.5 63.3903L297.501 53.0002L202.351 35.5016C207.874 62.8848 195.606 159.864 184.985 185.701C174.364 211.538 156.32 233.645 133.135 249.227C109.95 264.809 82.6655 273.166 54.7309 273.241C26.7963 273.316 -0.533173 265.106 -23.8017 249.649L-137.655 421.039Z" fill="url(#paint1_linear_742_7897)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_742_7897" x1="2190" y1="614.581" x2="1007.16" y2="614.581" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0.01"/>
+</linearGradient>
+<linearGradient id="paint1_linear_742_7897" x1="308.501" y1="387.5" x2="-25.499" y2="128" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

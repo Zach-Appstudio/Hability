@@ -83306,10 +83306,10 @@ button:focus {
     display: block;
   }
 }
-header {
-  /* padding-top: 20px; */
-  /* background: linear-gradient(180deg, #0F0F0F 0%, #0F0F0F 100%); */
-}
+/* header {
+  padding-top: 20px;
+  background: linear-gradient(180deg, #0F0F0F 0%, #0F0F0F 100%);
+} */
 header .navbar {
   margin-bottom: 63PX;
 }
@@ -84284,6 +84284,9 @@ label {
   border: 1px solid transparent;
 }
 
+.logo{
+  height:46px;
+}
 .company-about header {
   background-image: url("../images/covers/cover-4@2x.png");
   background-position: top center;
@@ -86027,6 +86030,10 @@ main.company-documentation .content .profile-image img {
   border-radius: 50%;
   object-fit: cover;
 }
+.twin-mobile-img {
+  height: 960px;
+  padding-top: 50px;
+}
 main.company-documentation .content .author-name::after {
   content: "\a";
   width: 5px;
@@ -86869,7 +86876,7 @@ opacity: 0.6;
 
 .apps-mobile .more-features {
   /* background: url(../images/components/wave-bottom-out-new.svg) center top, url("../images/covers/cover-13@2x.png") center center, url(../images/components/wave-bottom-out.svg) center bottom; */
-  background: url("../images/covers/Base@2x.png") center top;
+  background: url("../images/covers/Base.svg") center top;
   background-size: 100%, cover, 102%;
   background-repeat: no-repeat;
   background-blend-mode: screen;
@@ -86922,7 +86929,7 @@ opacity: 0.6;
 @media (max-width: 991.98px) {
   .apps-mobile header .hero {
     background-position: center bottom 2px, center bottom;
-    background-size: 1200px auto;
+    background-size: cover;
   }
   .apps-mobile .multi-platform .illustration {
     display: none;
@@ -86930,7 +86937,7 @@ opacity: 0.6;
 }
 @media (max-width: 575.98px) {
   .apps-mobile header .hero {
-    background-size: 800px auto;
+    background-size: auto;
   }
   .apps-mobile header .hero .button-cta img {
     height: 40px;
@@ -89027,6 +89034,13 @@ header.blog-alt-2 .popular-tags ul li a {
 .blog-alt-2-grid .grid-item {
     width: 50%;
   }
+  .apps-mobile .more-features {
+    /* background: url(../images/components/wave-bottom-out-new.svg) center top, url("../images/covers/cover-13@2x.png") center center, url(../images/components/wave-bottom-out.svg) center bottom; */
+    background: url("../images/covers/Base.svg") center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+  }
 }
 @media (max-width: 767.98px) {
   header.blog-alt-2 .popular-tags {
@@ -89071,6 +89085,13 @@ header.blog-alt-2 .popular-tags ul li a {
     font-size: 14px;
     line-height: 1.71;
     margin-bottom: 24px;
+  }
+  .apps-mobile .more-features {
+    /* background: url(../images/components/wave-bottom-out-new.svg) center top, url("../images/covers/cover-13@2x.png") center center, url(../images/components/wave-bottom-out.svg) center bottom; */
+    background: url("../images/covers/Base.svg") center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
   }
 }
 header.blog-detail {
