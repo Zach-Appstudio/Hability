@@ -66,6 +66,12 @@ $("#home-btn").click(function() {
 
 $("#features-btn").click(function() {
     $('html, body').animate({
+        scrollTop: $("#features").offset().top
+    }, 2000);
+});
+
+$("#benefits-btn").click(function() {
+    $('html, body').animate({
         scrollTop: $("#multi-platform").offset().top
     }, 2000);
 });
